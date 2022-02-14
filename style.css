@@ -1,0 +1,254 @@
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.header-section{
+    background-color: #141719;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-logo img{
+    width: 100px;
+    padding: 12px 0;
+}
+
+.header-menu ul{
+    display: flex;
+}
+.header-menu ul li{
+    padding: 0 11px;
+}
+.header-menu ul li a{
+    display: inline-block;
+    color: #fff;
+    padding: 8px 6px;
+    border-bottom: 1px solid #fff;
+}
+
+/* middel section */
+
+.middel-section{
+    display: flex;
+    padding: 20px 0;
+}
+
+.middel-left{
+    width: 75%;
+    padding: 40px;
+    margin-top: 90px;
+}
+.first-div{
+    display: flex; 
+}
+
+.box1{
+    width: 33%;
+    height: 200px;
+    border: 1px solid #57ab57;
+    margin-right: 20px;
+}
+.box1 p{
+    margin-bottom: 0;
+}
+.box2{
+    width: 33%;
+    height: 200px;
+    border: 1px solid #57ab57;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 p{
+    margin-bottom: 0;
+}
+.box3{
+    width: 33%;
+    height: 200px;
+    border: 1px solid #57ab57;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.box3 p{
+    margin-bottom: 0;
+}
+.item{
+    background: red;
+    color: #fff;
+    height: 40px;
+    width: 55px;
+    margin-bottom: 0;
+    display: flex; 
+    align-items: center;
+}
+
+
+/* second box */
+
+.second-div{
+    display: flex;
+    margin-top: 30px;
+}
+.second-div p{
+    font-size: 14px;
+}
+.s-box1 {
+    width: 33%;
+    border: 1px solid #57ab57;
+    margin-right: 20px;
+    padding: 15px;
+    display: flex;
+    flex: 1;
+}
+.s-box1:last-child{
+    margin-right: 0;
+}
+.grow{
+    flex-grow: 2;
+}
+
+
+/* third box */
+
+.third-div{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.third-div:last-child .t-box3{
+    margin-right: 0;
+}
+.t-box1 {
+    width: 33%;
+    border: 1px solid #57ab57;
+    height: 150px;
+    margin-right: 20px;
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+}
+.t-box1 p{
+    margin-bottom: 0;
+}
+.t-box2 {
+    width: 34%;
+    border: 1px solid #57ab57;
+    height: 150px;
+    margin-right: 20px;
+    padding: 15px 15px 30px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.t-box2 p{
+    margin-bottom: 0;
+}
+.t-box3{
+    width: 33%;
+    border: 1px solid #57ab57;
+    height: 150px;
+    margin-right: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.t-box3 p{
+    margin-bottom: 0;
+}
+
+.items{
+    width: 45px;
+    height: 35px;
+    background: red;
+    color: #fff;
+    border: 1px solid #57ab57;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items1{
+    width: 70px;
+    height: 40px;
+    background-color: red;
+    border: 1px solid #57ab57;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.items2{
+    width: 70px;
+    height: 40px;
+    background-color: red;
+    border: 1px solid #57ab57;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.items3{
+    width: 70px;
+    height: 40px;
+    background-color: red;
+    border: 1px solid #57ab57;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+
+/* middle right */
+
+.middel-right{
+    width: 25%;
+    background-color: #d2d2d2;
+    justify-content: space-evenly;
+    border-left: 2px solid red;
+    margin-top: 60px;
+}
+.middel-right img{
+    width: 280px;
+}
+.middel-right-content{
+    padding: 25px;
+}
+.middel-right-content p {
+    font-size: 12px;
+}
+
+
+
+/* footer section */
+
+.footer-section{
+    background-color: #141719;
+    /* margin-bottom: 40px; */
+}
+.footer-menu{
+    display: flex;
+    justify-content: center;
+}
+.footer-menu ul{
+    display: flex;
+}
+.footer-menu ul li{
+    padding: 18px 12px;
+}
+.footer-menu ul li a {
+    display: inline-block;
+    padding: 8px 6px;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    font-size: 17px;
+}
